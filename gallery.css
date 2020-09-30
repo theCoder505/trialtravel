@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Elsie Swash Caps', cursive;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+
+    background-color: rgb(37, 37, 37);
+
+}
+
+
+#menubar{
+    
+    position: fixed;
+    padding: 10px 100px;
+    background-color: rgba(0, 0, 0, 0.808);
+    z-index: 200;
+    width: 100%;
+    margin-top: 0px;
+    }
+    
+    
+ 
+    
+    #menubar ul li a{
+        color: whitesmoke;
+    }
+    .active a{
+        color: orange!important;
+    }
+    
+    #menubar ul li:hover a{
+        color: orange!important;
+    }
+   
+    /* menu done */
+
+
+#buncho0fImages{
+    padding: 80px;
+    padding-top: 17vh;
+}
+
+#buncho0fImages img {
+    margin: 10px;
+    width: 100%;
+    transition: all 1s;
+}
+
+
+#buncho0fImages img:hover{
+    box-shadow: 0px 0px 55px 15px black;
+    border: 2px solid red;
+    -ms-transform: scaleY(1.1); 
+    -webkit-transform: scaleY(1.1); 
+    transform: scaleY(1.1); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+footer{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding-bottom: 15px;
+}
+
+footer ul{
+    text-decoration: none;
+
+}
+
+footer ul li{
+    display: inline-block;
+    color: #ad7835;
+}
+
+.favicon{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding-top: 10px;
+    background-color: #1d1d1d;
+    color: #ad7835;
+    border: 2px solid #ad7835;
+}
+
+.favicon i{
+    color: #ad7835;
+}
+.favicon:hover {
+    background-color: #ad7835;
+}
+.favicon:hover i{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+   
+    #menubar {
+        position: fixed;
+        z-index: 200;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    
+ 
+    
+    
+    
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
