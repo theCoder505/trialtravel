@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Elsie Swash Caps', cursive;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("imageblogs/mainbackground.png");
+    /* background-size: inherit; */
+    /* background-size: initial; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#menubar{
+margin-top: -25vh;
+position: fixed;
+padding: 10px 100px;
+background-color: rgba(0, 0, 0, 0.404);
+z-index: 200;
+width: 100%;
+}
+
+
+#tablewriting{
+    margin: auto;
+    margin-top: 25vh;
+    padding: 20px 0;
+   text-align: center;
+   border: 5px solid #ad7835;
+   width: 60%;
+   height: 100%;
+}
+
+
+#menubar ul li a{
+    color: whitesmoke;
+}
+.active a{
+    color: orange!important;
+}
+
+#menubar ul li:hover a{
+    color: orange!important;
+}
+
+hr {
+    border: 1px solid whitesmoke;
+    margin-top: -10px
+}
+
+
+
+
+.travel{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin-top: 8vh;
+    font-size: 8rem;
+    letter-spacing: 1rem;
+}
+
+.inspiration{
+    color: #ac752f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#about{
+    margin: 30vh;
+    width: 70%;
+    background-color: #373737;
+    padding: 15px;  
+    color: #ad7835;
+    
+}
+#about h3 {
+    color: #ad7835; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.line {
+    padding: 0;
+    margin-top: 40px;
+    border: 1px solid #ad7835;
+    float: left !important;
+    align-content: start;
+    display: flex;
+    width: 40px;
+    margin-left: -120px;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutwriting {
+    float: left;
+    padding-left: 50px;
+    max-height: 200px;
+}
+
+
+.read {
+    background-color: #373737;
+    color: #ad7835;
+    border: 1px solid #ad7835;
+}
+
+.less, .showandHide{
+    display: none;
+}
+
+
+
+
+
+
+.aboutimage{
+    
+    padding-right: 50px;
+    z-index: 20;
+}
+
+.imageme {
+    max-height: 400px;
+    float: right;
+    margin-top: -18vh;
+    margin-bottom: -10vh;
+    transition: all 1s;
+
+}
+
+
+
+
+.imageme:hover{
+    margin-top: -23vh;
+    box-shadow: 0px 0px 55px 15px black;
+}
+
+.aboutwriting p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* about done */
+
+#articles h5, p, a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
+
+}
+#articles h5, a {
+    color: #ad7835;
+}
+#gallery h1{
+    color: #ad7835;
+    text-align: center;
+}
+#gallery hr{
+    border: 1px solid #ad7835;
+}
+
+
+#Gallery1{
+    padding: 10px;
+    display: inline-flex;
+}
+#Gallery1 p, #Gallery1 a{
+    font-size: 12px;
+}
+
+#articles img {
+    transition: all 0.5s;
+}
+
+/* #articles {
+    margin-top: 200px;
+} */
+#articles img:hover{
+    -ms-transform: scaleY(1.2); /* IE 9 */
+    -webkit-transform: scaleY(1.2); /* Safari 3-8 */
+    transform: scaleY(1.2); 
+}
+
+/* .large3{
+    width: 30%;
+    margin: 10px;
+}
+
+.mid2 {
+    width: 45%;
+    margin: 10px;
+} */
+
+
+.div1{
+    margin-top: -100px!important;
+    margin-bottom: 100px!important;
+}
+
+
+.div1:hover, .div3:hover, .div2:hover,.div4:hover, .div5:hover{
+    border: 1px solid red;
+}
+
+
+
+.div3{
+    margin-top: -50px!important;
+    margin-bottom: 50px!important;
+}
+
+
+#Gallery1 {
+    margin-top: 200px;
+}
+.div4{
+    margin-top: -150px!important;
+    margin-bottom: 150px!important;
+}
+
+
+
+.div5{
+    margin-top: -50px!important;
+    margin-bottom: 50px!important;
+}
+
+
+
+
+
+
+
+
+/*all aerticles now below*/
+
+#ArticlesAlltime{
+    margin: 100PX 0;
+}
+#ArticlesAlltime h1{
+    text-align: center;
+    color: #ad7835;
+}
+#ArticlesAlltime hr{
+    border: 1px solid #ad7835;
+    margin-bottom: 70px;
+}
+#ArticlesAlltime .card-img {
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+#ArticlesAlltime .card-img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#ArticlesAlltime a button{
+    background-color: #373737;
+    color: #ad7835;
+    border: 1px solid #ad7835;
+}
+
+#ArticlesAlltime a:hover button{
+    background-color: #921515;
+    color: #f5f2ef;
+    border: 1px solid #fa0238;
+}
+
+
+
+
+
+#mainGallery{
+    margin: 150px 0;
+}
+
+#mainGallery h1{
+    color: #ad7835;
+}
+#mainGallery hr{
+    border: 1px solid #ad7835;
+}
+
+
+.maingalleryline1{
+    margin: 20px 0;
+}
+
+.maingalleryline2 {
+    margin: 20px 0;
+}
+
+#mainGallery img {
+    width: 100%;
+    max-height: 500px;
+    transition: all 1.5s;
+}
+
+
+#mainGallery img:hover {
+    width: 100%;
+    border: 1px solid blue;
+    max-height: 500px;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+
+.image1{
+    margin-top: -15px;
+}
+.image2{
+    margin-top: -50px;
+}
+.image3{
+    margin-top: 80px;
+}
+.image5{
+    margin-top: -30px;
+}
+.image6 {
+    padding-left: 30px;
+    margin-top: -170px;
+}
+.image7 {
+    margin-top: -170px;
+}
+
+.buttoning {
+    margin-top: 50px;
+
+}
+
+.buttoning button{
+    background-color: #1d1d1d;
+    color: #ad7835;
+    border: 1px solid #ad7835;
+}
+
+
+
+/* contact me starts here */ 
+
+
+#contact{
+    background-color: #373737;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    margin: 200px 0;
+}
+#contact h2{
+    color: #ad7835;
+    text-align: center;
+}
+#contact hr{
+    border: 1px solid #ad7835;
+}
+
+.contactImage {
+    max-height: 400px;
+    margin-top: -15vh;
+    margin-bottom: -30vh;
+    transition: all 1s;
+}
+
+.contactImage:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 55px 15px black;
+}
+
+
+
+
+
+
+
+
+.forming input{
+background: transparent;
+color: white;
+border: transparent;
+border-bottom: 1px solid silver;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+
+.forming #textmessage{
+background: transparent;
+color: white;
+border: transparent;
+border-bottom: 1px solid silver;
+margin: auto;
+margin-top: 20px;
+}
+
+
+
+.send{
+    margin-top: 40px;
+    background-color: #373737;
+    border: 1px solid #ac752f;
+    color: #ad7835
+}
+
+
+
+
+/* footer part */
+
+
+
+
+
+
+footer{
+    margin: 10vh 0;
+}
+
+footer ul{
+    text-decoration: none;
+
+}
+
+footer ul li{
+    display: inline-block;
+    color: #ad7835;
+}
+
+.favicon{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding-top: 10px;
+    background-color: #1d1d1d;
+    color: #ad7835;
+    border: 2px solid #ad7835;
+}
+
+.favicon i{
+    color: #ad7835;
+}
+.favicon:hover {
+    background-color: #ad7835;
+}
+.favicon:hover i{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+   
+#menubar {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    padding: 10px 30px;
+}
+.travel{
+    margin-top: 10vh;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+  
+
+
+
+.aboutwriting {
+    float: left;
+    padding-left: 50px;
+    max-height: 200px;
+}
+
+
+
+.less, .showandHide{
+    display: none;
+}
+
+.aboutimage{
+    padding-left: 50px;
+    z-index: 20;
+    padding-right: 15px;
+}
+
+.imageme {
+    max-height: 400px;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+    padding-right: 5px;
+
+}
+
+.imageme:hover{
+    margin-top: 2px;
+    box-shadow: 0px 0px 55px 15px black;
+    padding-right: 0px;
+}
+
+.aboutwriting p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image6 {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.image7 {
+    margin-top: -50px;
+}
+
+#contact{
+    background-color: #373737;
+    width: 80%;
+    margin: auto;
+}
+
+#contact h2{
+    color: rgb(6, 252, 47);
+    text-align: center;
+}
+#contact hr{
+    border: 1px solid rgb(6, 252, 47);
+}
+
+.contactImage {
+    max-height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all 1s;
+}
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
